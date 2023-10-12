@@ -38,27 +38,57 @@
 				
 				<h3>And <code>and</code></h3>
 				<?php
-					// your code here
+					if ($username = "johnyboy" and $password = "qwerty") {
+
+						echo "Correct Login";
+
+					}
 				?>
 				
 				<h3>Or <code>or</code></h3>
 				<?php
-					// your code here
+					if ($cartTotal > 15 or $couponCode == "DscountPlease") {
+
+						echo "you get a discount";
+
+					}else {
+
+						echo "you dont have a discount";
+
+					}
 				?>
 				
 				<h3>Not <code>!</code></h3>
 				<?php
-					// your code here
+					$ownDog = true;
+
+					if (!$ownDog){
+						echo "You do not own a dog";
+					}else {
+						echo "you own a dog";
+					}
 				?>
 				
 				<h3>And <code>&amp;&amp;</code></h3>
 				<?php
-					// your code here
+					if ($username == "johnyboy" && $password == "qwerty") {
+						echo "Login info correct";
+					} else {
+						echo "Wrong login info";
+					}
 				?>
 				
 				<h3>Or <code>||</code></h3>
 				<?php
-					// your code here
+					if ($cartTotal > 15 || $couponCode == "DscountPlease") {
+
+						echo "you get a discount";
+
+					}else {
+
+						echo "you dont have a discount";
+
+					}
 				?>
 				
 			</div><!-- end sandbox -->
@@ -67,7 +97,7 @@
 			
 			<hr>
 			
-			<small>&copy;<<?php echo date('Y');?> - <?php echo $my_name;?></small>
+			<small>&copy;<?php echo date('Y');?> - <?php echo $my_name;?></small>
 		</div><!-- end wrapper -->
 		
 		<div class="copyright-info">

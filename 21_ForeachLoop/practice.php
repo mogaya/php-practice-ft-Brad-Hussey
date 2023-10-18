@@ -4,7 +4,7 @@
 	define("TITLE", "Foreach Loop");
 	
 	// Custom Variables
-	$myName	= "Brad Hussey";
+	$myName	= "Mogaya";
 	$lessonNum	= 21;
 
 ?>
@@ -30,7 +30,11 @@
 				
 				<?php
 				 
-				    // your code here
+				    $cars = array("Lambogini Urus", "Porche Cayenne", "Dodge Challenger");
+
+					foreach($cars as $car){
+						echo "I love a $car <br>";
+					}
 				 
 				?>
 				

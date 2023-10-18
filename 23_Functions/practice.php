@@ -44,7 +44,11 @@
 				<h3>Using <code>rsort()</code></h3>
 				<?php
 					
-					// your code here
+					rsort($brands);
+
+					foreach ($brands as $brand){
+						echo "$brand <br>";
+					}
 					
 				?>
 				

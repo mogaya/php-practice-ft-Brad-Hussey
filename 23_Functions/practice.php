@@ -55,14 +55,21 @@
 				<h3>Using <code>strtolower()</code></h3>
 				<?php
 					
-					// your code here
+					$text = "QWERTY";
+					$text = strtolower($text);
+
+					echo "$text";
 					
 				?>
 				
 				<h3>Using <code>sha1()</code></h3>
 				<?php
 					
-					// your code here
+					$password = "MyPassword";
+					echo "Before: $password <br>";
+
+					$password = sha1($password);
+					echo "After: $password";
 					
 				?>
 				

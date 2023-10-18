@@ -4,7 +4,7 @@
 	define("TITLE", "Custom Functions");
 	
 	// Custom Variables
-	$myName	= "Brad Hussey";
+	$myName	= "Mogaya";
 	$lessonNum	= 24;
 
 ?>
@@ -30,7 +30,23 @@
 				
 				<?php
 					
-					// your code here
+					function progress() {
+						echo "Mogaya made it";
+					}
+
+					$coding = true;
+
+					if ($coding){
+
+						progress();
+
+					}else {
+
+						echo "Don't Sleep Wake Up";
+
+					}
+ 
+					
 					
 				?>
 				

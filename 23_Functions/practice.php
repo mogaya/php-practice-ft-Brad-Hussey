@@ -4,7 +4,7 @@
 	define("TITLE", "Intro to Functions");
 	
 	// Custom Variables
-	$myName	= "Brad Hussey";
+	$myName	= "Mogaya";
 	$lessonNum	= 23;
 	
 ?>
@@ -31,7 +31,13 @@
 				<h3>Using <code>sort()</code></h3>
 				<?php
 					
-					// your code here
+					$brands = array("Toyota", "Isuzu", "Mazda", "Audi", "Mercedes");
+
+					sort($brands);
+
+					foreach($brands as $brand){
+						echo "$brand <br>";
+					}
 					
 				?>
 				

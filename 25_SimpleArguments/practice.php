@@ -4,7 +4,7 @@
 	define("TITLE", "Simple Arguments");
 	
 	// Custom Variables
-	$myName	= "Brad Hussey";
+	$myName	= "Mogaya";
 	$lessonNum	= 25;
 
 ?>
@@ -31,14 +31,26 @@
 				<h3>One Argument</h3>
 				<?php
 					
-					// your code here
-					
+					function destination($city) {
+						echo "I am travelling to $city <br>";
+
+					}
+
+					destination("Malasia");
+					destination("Maldives");
+					destination("Malta");
+
 				?>
 				
 				<h3>Two Arguments</h3>
 				<?php
 				
-					// your code here
+					function multiply($val1, $val2) {
+						$product = $val1 * $val2;
+						echo "The product of the two values is $product <br>";
+					}
+
+					multiply(10, 20);
 				
 				?>
 				

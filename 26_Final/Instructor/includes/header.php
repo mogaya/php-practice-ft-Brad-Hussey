@@ -8,7 +8,9 @@
 
 <head>
 	<title><?php echo TITLE; ?></title>
-	<link href="/assets/styles.css" rel="stylesheet">
+	<!-- <link href="/assets/styles.css" rel="stylesheet"> -->
+
+	<link href="styles1.css" rel="stylesheet">
 </head>
 
 <body id="final-example">

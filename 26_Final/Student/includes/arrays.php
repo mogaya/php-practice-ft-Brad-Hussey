@@ -1,4 +1,4 @@
-<?php 
+<?php
 //Nav Menu Items
 
 $navItems = array(
@@ -20,4 +20,24 @@ $navItems = array(
     ),
 );
 
-?>
+//Team Members
+$teamMembers = array(
+    array(
+        "name" => "Frankie III",
+        "position" => "Owner",
+        "bio" => "Original owner",
+        "img" => "frankie"
+    ),
+    array(
+        "name" => "Francis",
+        "position" => "General Manager",
+        "bio" => "Runs the show",
+        "img" => "francis"
+    ),
+    array(
+        "name" => "Carlos",
+        "position" => "Head Chef",
+        "bio" => "Simply can not find a better chef",
+        "img" => "carlos"
+    ),
+);

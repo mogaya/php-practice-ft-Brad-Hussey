@@ -17,7 +17,8 @@ function suggestedTip($price, $tip)
 {
 
     $totalTip = $price * $tip;
-    echo money_format('%.2n', $totalTip);
+    echo $totalTip;
+    // echo number_format('%.2n', $totalTip);
 }
 
 ?>
@@ -30,6 +31,12 @@ function suggestedTip($price, $tip)
     <br>
 
     <p><strong>Suggested Beverage <?php echo $dish["drink"] ?></strong></p>
-    <p><em>Suggested Tip <sup>ksh</sup></em></p>
+    <p><em>Suggested Tip <sup>ksh</sup><?php suggestedTip($dish["price"], 0.20); ?></em></p>
 </div>
 <!-- dish -->
+
+<hr>
+
+<a href="menu.php" class="button previous">&laquo; Back To Menu</a>
+
+<?php include('includes/footer.php'); ?>
